@@ -1,3 +1,6 @@
 //typescript로 블록체인을 만들어 보아요
-//git 연결 후 commit 테스트
-//git Authentication Succeeded
+//타입스크립트를 사용해야하는 이유
+//타입안정성
+//런타임에러 방지
+//자바스크립트는 매우 플렉서블하다.
+// [1,2,3,4,5] + false > 1,2,3,4,5false
