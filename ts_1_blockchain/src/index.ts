@@ -40,7 +40,8 @@ class Blockchain {
         this.blocks.push(block);
     }
     public getBlocks(){
-        return this.blocks;
+        //return this.blocks;
+        return [...this.blocks]; // 배열안에 있는 데이터를 가진 새로운 배열을 리턴해주자
     }
 }
 
@@ -48,8 +49,9 @@ const blockchain = new Blockchain();
 blockchain.addBlock("first one");
 blockchain.addBlock("second one");
 blockchain.addBlock("third one");
+blockchain.addBlock("Fourth Block");
 
-console.log(blockchain.getBlocks());l //모든 블록체인소환
+console.log(blockchain.getBlocks()); //모든 블록체인소환
 
 
 
